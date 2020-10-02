@@ -1,0 +1,79 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: Montserrat;
+    font-weight: 500;
+    background-color: #fcfcfcee;
+}
+.margin-left {
+    float: left; /* Обтекание по правому краю */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    margin-top: -75pt;
+    width: 10%; /* Ширина блока */
+    display: block;
+}
+.the-first-table {
+    margin-right: 15px;
+    margin-top: -5px;
+    padding: 10 px 25px 15px 25px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 9pt;
+    padding-left: 10pt;
+    line-height: 1.7;
+}
+#p-logo {
+    margin-bottom: 1em;
+}
+.margins-first {
+    background-color: white;
+    margin-left: 165px;
+    margin-right: 20px;
+    margin-top: 80px;
+    border:1px solid lightblue;border-top-color: rgb(167, 215, 249);
+    border-top-width: inherit;
+    padding-left: 30px;
+}
+#first-header,
+#sixth-header,
+#seventh-header,
+#fifth-header {
+    border-bottom: 1px solid #a2a9b1;
+    font-weight: 400; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 25pt;
+    margin-bottom: 0.25em;
+    line-height: 1.5;
+}
+#forth-header {
+    text-align: center;
+}
+.the-second-table {
+    border : 1px solid #c9c9c9;
+    background-color: rgb(241, 241, 241);
+ }
+ th {
+     padding: 25px;
+ }
+#second-header {
+    font-size: 10pt; 
+    font-weight: 500;
+}
+#sitesub {
+    font-style: italic;
+   font-weight: 600;
+}
+#first-ol,
+.the-medium {
+    font-weight: 500;
+    text-align: left;
+}
+.tooltip {
+	border-bottom: 1px dotted #0077AA;
+	cursor: help;
+}
